@@ -4,6 +4,7 @@ import json
 from typing import Dict, List, Any, Tuple
 import numpy as np
 from open_ai import OPENAI
+
 class APIClient:
     """Client for making API requests to models"""
     
