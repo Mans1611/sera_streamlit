@@ -17,12 +17,15 @@ st.sidebar.markdown("---")
 
 page = st.sidebar.radio(
     "Select Page:",
-    ["STT", "LLM", "TTS"],
+    ["Voice Assistant", "STT", "LLM", "TTS"],
     
 )
 
 # Import and display selected page
-if page == "STT":
+if page == "Voice Assistant":
+    from pages import end_to_end
+    end_to_end.show()
+elif page == "STT":
     from pages import stt
     stt.show()
 elif page == "LLM":
