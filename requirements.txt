@@ -1,5 +1,5 @@
 streamlit==1.28.1
 requests==2.31.0
-numpy==1.24.3
+numpy==1.26.4
 soundfile==0.12.1
 openai==2.26.0
