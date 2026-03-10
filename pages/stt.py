@@ -7,9 +7,7 @@ import io
 
 # STT Models configuration
 STT_MODELS = [
-    {"name": "wHISPER", "request_url": "https://cba4-2a02-ce0-1802-a53-2e58-b9ff-fe16-5bf7.ngrok-free.app/v1/audio/transcriptions"},
-    {"name": "STT Model v2", "request_url": "http://localhost:8002/stt/infer"},
-    {"name": "STT Model v3", "request_url": "http://localhost:8003/stt/infer"},
+    {"name": "wHISPER", "request_url": "https://cba4-2a02-ce0-1802-a53-2e58-b9ff-fe16-5bf7.ngrok-free.app/v1/audio/transcriptions"}
 ]
 
 

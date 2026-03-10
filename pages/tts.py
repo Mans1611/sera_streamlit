@@ -4,10 +4,7 @@ import io
 
 # TTS Models configuration
 TTS_MODELS = [
-    {"name": "XTTS", "request_url": "https://gonna-assurance-kim-col.trycloudflare.com/v1/audio/speech"},
-    {"name": "TTS Model v2", "request_url": "http://localhost:8002/tts/infer"},
-    {"name": "TTS Model v3", "request_url": "http://localhost:8003/tts/infer"},
-    {"name": "TTS Model v4", "request_url": "http://localhost:8004/tts/infer"},
+    {"name": "XTTS", "request_url": "https://gonna-assurance-kim-col.trycloudflare.com/v1/audio/speech"}
 ]
 
 

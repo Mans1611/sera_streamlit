@@ -4,10 +4,7 @@ import time
 
 # LLM Models configuration
 LLM_MODELS = [
-    {"name": "OpenAI", "request_url": "https://hose-medal-designated-partnerships.trycloudflare.com/v1/messages"},
-    {"name": "LLM Model v2", "request_url": "http://localhost:8002/llm/infer"},
-    {"name": "LLM Model v3", "request_url": "http://localhost:8003/llm/infer"},
-    {"name": "LLM Model v4", "request_url": "http://localhost:8004/llm/infer"},
+    {"name": "OpenAI", "request_url": "https://hose-medal-designated-partnerships.trycloudflare.com/v1/messages"}
 ]
 
 
